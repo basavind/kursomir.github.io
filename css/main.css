@@ -209,7 +209,7 @@
 }
 
 .scheme__item_middle {
-    min-width: 110px;
+    min-width: 150px;
 }
 
 .scheme__item:before {
@@ -264,6 +264,7 @@
 }
 
 .scheme__item_tip {
+    width: 360px;
     max-width: 360px;
     margin-right: 0;
 
