@@ -22,7 +22,7 @@
     width: 1440px;
     height: 300px;
 
-    background: url(../img/bg_pic.png) no-repeat bottom center;
+    background: url(/img/bg_pic.png) no-repeat bottom center;
     background-size: cover;
 }
 
@@ -49,7 +49,7 @@
     height: 100px;
     margin: -50px 0 0 -194px;
 
-    background: url(../img/kurs_logo.png) no-repeat center;
+    background: url(/img/kurs_logo.png) no-repeat center;
 }
 
 .menu {
@@ -167,27 +167,27 @@
 }
 
 .section__icon_1 {
-    background-image: url(../img/github-02.png);
+    background-image: url(/img/github-02.png);
 }
 
 .section__icon_2 {
-    background-image: url(../img/github-03.png);
+    background-image: url(/img/github-03.png);
 }
 
 .section__icon_3 {
-    background-image: url(../img/github-04.png);
+    background-image: url(/img/github-04.png);
 }
 
 .section__icon_4 {
-    background-image: url(../img/github-05.png);
+    background-image: url(/img/github-05.png);
 }
 
 .section__icon_5 {
-    background-image: url(../img/github-06.png);
+    background-image: url(/img/github-06.png);
 }
 
 .section__icon_6 {
-    background-image: url(../img/github-07.png);
+    background-image: url(/img/github-07.png);
 }
 
 .scheme {
