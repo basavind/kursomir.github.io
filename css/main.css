@@ -1,17 +1,49 @@
+/* font-family: "GothamProBold"; */
+@font-face {
+    font-family: "GothamProBold";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../fonts/GothamProBold.eot");
+    src: url("../fonts/GothamProBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothamProBold.woff") format("woff"),
+    url("../fonts/GothamProBold.ttf") format("truetype");
+}
+
+/* font-family: "OpenSansRegular"; */
+@font-face {
+    font-family: "OpenSansRegular";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../fonts/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansRegular.woff") format("woff"),
+    url("../fonts/OpenSansRegular.ttf") format("truetype");
+}
+
+/* font-family: "OpenSansBold"; */
+@font-face {
+    font-family: "OpenSansBold";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../fonts/OpenSansBold.eot");
+    src: url("../fonts/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansBold.woff") format("woff"),
+    url("../fonts/OpenSansBold.ttf") format("truetype");
+}
+
+.body {
+    min-width: 880px;
+}
+
 .center {
     display: flex;
 
     min-height: 100%;
 
     justify-content: center;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.gray {
-    color: #939598;
 }
 
 .header,
@@ -78,8 +110,8 @@
 
     color: #fff;
 
+    font-family: OpenSansBold, Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-weight: bold;
 }
 
 .menu__item:hover {
@@ -95,7 +127,7 @@
 .section {
     position: relative;
 
-    padding: 60px 0 60px 270px;
+    padding: 60px 0 60px 280px;
 
     border-bottom: 2px solid #BCBEC0;
 }
@@ -114,25 +146,29 @@
 .section__title {
     position: absolute;
     top: 60px;
-    right: 530px;
     left: 0;
+
+    width: 260px;
 
     color: #ED4136;
 
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 42px;
+    font-family: GothamProBold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 40px;
 }
 
 .section__title_wide {
     position: static;
+
+    width: 100%;
 }
 
 .section__text {
     color: #333;
 
-    font-size: 18px;
-    line-height: 24px;
+    font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .section__text_columned {
@@ -193,13 +229,17 @@
     display: flex;
 
     margin-top: 32px;
+
+    font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .scheme__item {
     position: relative;
 
     margin-right: 16px;
-    padding: 22px 10px 0 0;
+    padding: 22px 26px 0 0;
 
     border-top: 1px solid #BCBEC0;
 }
@@ -209,7 +249,7 @@
 }
 
 .scheme__item_middle {
-    min-width: 110px;
+    min-width: 150px;
 }
 
 .scheme__item:before {
@@ -264,6 +304,7 @@
 }
 
 .scheme__item_tip {
+    width: 360px;
     max-width: 360px;
     margin-right: 0;
 
@@ -347,6 +388,7 @@
 
     color: #333;
     border: 1px solid #DADADA;
+    border-radius: 4px;
     background: #F1F2F2;
     box-shadow: 2px 2px 16px -3px rgba(51, 51, 51, 0.5);
 }
@@ -360,10 +402,11 @@
     height: 0;
 
     content: '';
+    transition: border-color 0.2s ease-out;
 
     border-width: 5px 0 5px 6px;
     border-style: solid;
-    border-color: transparent transparent transparent #ED4136;
+    border-color: transparent transparent transparent #333;
 }
 
 .project__item:hover {
@@ -371,11 +414,15 @@
     border-color: #ED4136;
 }
 
+.project__item:hover:after {
+    border-color: transparent transparent transparent #ED4136;
+}
+
 .project__title {
     margin-top: 12px;
 
+    font-family: GothamProBold, Helvetica, Arial, sans-serif;
     font-size: 18px;
-    font-weight: bold;
 }
 
 .project__description {
@@ -411,8 +458,9 @@
 .about__text {
     color: #fff;
 
-    font-size: 18px;
-    line-height: 24px;
+    font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .about__mail {
@@ -423,4 +471,14 @@
 
 .about__mail:hover {
     color: #ED4136;
+}
+
+
+.bold {
+    font-family: OpenSansBold, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.gray {
+    color: #939598;
 }
