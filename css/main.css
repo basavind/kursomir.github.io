@@ -432,6 +432,19 @@
     line-height: 20px;
 }
 
+.project__langs {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 20px 10px;
+}
+
+.project__lang {
+    width: 32px;
+    height: 32px;
+}
+
 .about {
     position: relative;
 
