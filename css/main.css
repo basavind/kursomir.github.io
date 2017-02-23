@@ -379,9 +379,9 @@
     position: relative;
 
     width: calc(25% - 82px);
-    min-height: 120px;
+    min-height: 84px;
     margin: 20px;
-    padding: 20px;
+    padding: 20px 20px 56px;
 
     transition: color 0.2s ease-out, border-color 0.2s ease-out;
     text-decoration: none;
