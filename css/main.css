@@ -438,11 +438,19 @@
     left: 0;
     right: 0;
     padding: 0 20px 10px;
+
+    font-size: 0;
 }
 
 .project__lang {
     width: 32px;
     height: 32px;
+
+    margin-left: .5rem;
+}
+
+.project__lang:first-child {
+    margin-left: 0;
 }
 
 .about {
