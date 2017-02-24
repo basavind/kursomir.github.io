@@ -379,9 +379,9 @@
     position: relative;
 
     width: calc(25% - 82px);
-    min-height: 120px;
+    min-height: 84px;
     margin: 20px;
-    padding: 20px;
+    padding: 20px 20px 56px;
 
     transition: color 0.2s ease-out, border-color 0.2s ease-out;
     text-decoration: none;
@@ -430,6 +430,27 @@
 
     font-size: 14px;
     line-height: 20px;
+}
+
+.project__langs {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 20px 10px;
+
+    font-size: 0;
+}
+
+.project__lang {
+    width: 32px;
+    height: 32px;
+
+    margin-left: .5rem;
+}
+
+.project__lang:first-child {
+    margin-left: 0;
 }
 
 .about {
