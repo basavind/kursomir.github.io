@@ -13,7 +13,7 @@
 * ~~🚧 [`Snowshoe`](https://github.com/kursomir/Snowshoe) Приложение для перевода текстов~~
 * ~~🚧 [`Snowshoe`](https://github.com/kursomir/Snowshoe) Приложение для перевода видео~~
 * 🎨 [`kursomir.ru`](https://github.com/kursomir/kursomir.ru) Страница "О нас"
-* 🎨 [`kursomir.ru`](https://github.com/kursomir/kursomir.ru) Страница "Партнеры"
+* 🎨 [`kursomir.ru`](https://github.com/kursomir/kursomir.ru) Блок "Партнеры"
 * 🖥 [`kursomir.ru`](https://github.com/kursomir/kursomir.ru) [`Omega`](https://github.com/kursomir/Omega) Обновленный дизайн
 * ⚙ [`kursomir.ru`](https://github.com/kursomir/kursomir.ru) REST API для [`Alpha`](https://github.com/kursomir/Alpha)
 * 🛠 [`kursomir.ru`](https://github.com/kursomir/kursomir.ru) [`Alpha`](https://github.com/kursomir/Alpha) Нарезка на Vue-компоненты сверстаных страниц
