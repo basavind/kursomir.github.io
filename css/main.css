@@ -370,6 +370,7 @@
 
     color: #ED4136;
 
+    font-family: GothamProBold, Helvetica, Arial, sans-serif;
     font-size: 36px;
     font-weight: bold;
     line-height: 42px;
@@ -428,6 +429,7 @@
 .project__description {
     margin-top: 12px;
 
+    font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
 }
@@ -471,6 +473,7 @@
 
     color: #fff;
 
+    font-family: GothamProBold, Helvetica, Arial, sans-serif;
     font-size: 36px;
     font-weight: bold;
     line-height: 42px;
