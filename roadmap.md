@@ -6,7 +6,7 @@
 > * 🚧 — Проектирование
 > * 🖥 — Верстка
 > * 🛠 — Фронтенд разработка
-> * ⚙ — Бэкэнд разработка ⚙
+> * ⚙ — Бэкэнд разработка
 > * 📱 — Разработка мобильных приложений
 > * 📟 — Администрирование, devops
 
@@ -14,14 +14,36 @@
 * ~~🚧 [`Snowshoe`](https://github.com/kursomir/Snowshoe) Приложение для перевода видео~~
 * 🎨 [`kursomir.ru`](https://github.com/kursomir/kursomir.ru) Страница "О нас"
 * 🎨 [`kursomir.ru`](https://github.com/kursomir/kursomir.ru) Блок "Партнеры"
-* 🖥 [`kursomir.ru`](https://github.com/kursomir/kursomir.ru) [`Omega`](https://github.com/kursomir/Omega) Обновленный дизайн
-* ⚙ [`kursomir.ru`](https://github.com/kursomir/kursomir.ru) REST API для [`Alpha`](https://github.com/kursomir/Alpha)
-* 🛠 [`kursomir.ru`](https://github.com/kursomir/kursomir.ru) [`Alpha`](https://github.com/kursomir/Alpha) Нарезка на Vue-компоненты сверстаных страниц
+* 🎨 [`Omega`](https://github.com/kursomir/Omega) `Фронт` Страницы:
+    * ~~Курсы~~
+    * ~~Главная~~
+    * О нас
+    * Новости
+    * ~~Новость~~
+    * Курс
+* 🖥 [`Omega`](https://github.com/kursomir/Omega) `Фронт` Страницы:
+    * Курсы
+    * Главная
+    * О нас
+    * Новости
+    * Новость
+    * Курс
+* ⚙ [`Alpha`](https://github.com/kursomir/Alpha) REST API для [`Alpha`](https://github.com/kursomir/Alpha)
+* 🛠  [`Alpha`](https://github.com/kursomir/Alpha) Нарезка на Vue-компоненты сверстаных `Фронт` страниц
 * ⚙ [`kursomir.ru`](https://github.com/kursomir/kursomir.ru) Добавления новых курсов в админке
 * 📟 `Chell` Приложение для верстки (поднять [Sharelatex](https://github.com/sharelatex/sharelatex))
 
 **Milestone** `kursomir 2.0`
 
+* 🎨 [`Omega`](https://github.com/kursomir/Omega) `Админка` Страницы:
+    * Добавление/Редактирование Курс
+    * Добавление/Редактирование Лекции
+    * Добавление/Редактирование Новость
+* 🖥 [`Omega`](https://github.com/kursomir/Omega) `Админка` Страницы:
+    * Добавление/Редактирование Курс
+    * Добавление/Редактирование Лекции
+    * Добавление/Редактирование Новость
+* 🛠 [`Alpha`](https://github.com/kursomir/Alpha) Нарезка на Vue-компоненты сверстаных `Админка` страниц
 * ⚙ [`kursomir.ru`](https://github.com/kursomir/kursomir.ru) Сортировки курсов
 * 🎨 [`Snowshoe`](https://github.com/kursomir/Snowshoe) Приложение для перевода текстов
 * 🚧 [`Junkyard`](https://github.com/kursomir/Junkyard) Схема REST API
