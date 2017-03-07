@@ -1,0 +1,55 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+.logo {
+    @include large {
+        height: 6.5rem;
+    }
+
+    @include medium {
+        height: 4.5rem;
+    }
+
+    @include small {
+        height: 3.5rem;
+    }
+}
+
+.page-header {
+    padding: 1rem;
+    background-color: #e2412b;
+    background-image: none;
+}
+
+.project-name {
+    margin-bottom: 2rem;
+
+    @include large {
+        font-size: 3.25rem;
+    }
+
+    @include medium {
+        font-size: 2.25rem;
+    }
+
+    @include small {
+        font-size: 1.75rem;
+    }
+}
+
+a {
+    color: #aa3120;
+}
+
+.main-content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #333;
+    }
+}
